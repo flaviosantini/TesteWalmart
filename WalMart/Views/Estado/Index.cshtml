@@ -1,0 +1,57 @@
+﻿@model IList<Walmart.Models.Estado>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            CodEstado
+        </th>
+        <th>
+            Pais
+        </th>
+        <th>
+            Nome
+        </th>
+        <th>
+            Sigla
+        </th>
+        <th>
+            Regiao
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CodEstado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pais)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sigla)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Regiao)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CodEstado }) |
+            @Html.ActionLink("Details", "Details", new {  id=item.CodEstado }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CodEstado })
+        </td>
+    </tr>
+}
+
+</table>

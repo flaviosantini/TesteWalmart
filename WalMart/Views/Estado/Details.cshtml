@@ -1,0 +1,40 @@
+﻿@model Walmart.Models.Estado
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Estado</legend>
+
+    <div class="display-label">CodEstado</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CodEstado)
+    </div>
+
+    <div class="display-label">Pais</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Pais)
+    </div>
+
+    <div class="display-label">Nome</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <div class="display-label">Sigla</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Sigla)
+    </div>
+
+    <div class="display-label">Regiao</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Regiao)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CodEstado }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
