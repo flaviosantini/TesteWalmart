@@ -1,4 +1,0 @@
-C:\Users\Flavio Santini\documents\visual studio 2010\Projects\WalMart\DataAccessLayer\bin\Debug\DataAccessLayer.dll
-C:\Users\Flavio Santini\documents\visual studio 2010\Projects\WalMart\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
-C:\Users\Flavio Santini\documents\visual studio 2010\Projects\WalMart\DataAccessLayer\obj\Debug\DataAccessLayer.dll
-C:\Users\Flavio Santini\documents\visual studio 2010\Projects\WalMart\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
